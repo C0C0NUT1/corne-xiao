@@ -28,10 +28,10 @@
                 };
                 SYM {
                         bindings = <
-                                &kp TAB    &kp GRAVE  &none        &kp LBKT    &kp RBKT    &none                               &none      &kp HOME      &kp UP     &kp END    &none      &kp NUBS
-                                &kp LCTRL  &kp MINUS  &kp KP_EQUAL &kp KP_LPAR &kp KP_RPAR &none                               &none      &kp LEFT      &kp DOWN   &kp RIGHT  &kp RET    &kp DEL
-                                &kp LSHFT  &kp UNDER  &kp KP_PLUS  &kp LT      &kp GT      &none      &kp C_MUTE  &kp C_SLEEP  &none      &kp LG(LS(S)) &none      &none      &none      &kp ESC
-                                                                   &kp SPACE   &mo 1       &kp LALT                            &kp BSPC   &mo 0         &kp LGUI
+                                &kp TAB    &kp GRAVE  &none      &kp LBKT   &kp RBKT    &none                               &none      &kp HOME      &kp UP     &kp END    &none      &kp NUBS
+                                &kp LCTRL  &kp MINUS  &kp EQUAL  &kp LPAR   &kp RPAR    &none                               &none      &kp LEFT      &kp DOWN   &kp RIGHT  &kp RET    &kp DEL
+                                &kp LSHFT  &kp UNDER  &kp PLUS   &kp LT     &kp GT      &none      &kp C_MUTE  &kp K_SLEEP  &none      &kp LG(LS(S)) &none      &none      &none      &kp ESC
+                                                                 &kp SPACE   &mo 1       &kp LALT                            &kp BSPC   &mo 0         &kp LGUI
                         >;
 
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
