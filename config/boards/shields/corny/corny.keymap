@@ -14,7 +14,7 @@
                                                                  &kp SPACE  &mo 1      &kp LALT                           &kp BSPC   &mo 2      &kp LGUI
                         >;
 
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
                 };
                 NUM {
                         bindings = <
@@ -24,7 +24,7 @@
                                                                  &kp SPACE  &mo 0      &kp LALT                           &kp BSPC   &mo 2      &kp LGUI
                         >;
 
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LEFT RIGHT>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp RIGHT LEFT>;
                 };
                 SYM {
                         bindings = <
@@ -34,7 +34,7 @@
                                                                  &kp SPACE   &mo 1       &kp LALT                            &kp BSPC   &mo 0         &kp LGUI
                         >;
 
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
                 };
         };
 };
